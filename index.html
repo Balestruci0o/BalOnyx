@@ -7,36 +7,35 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
     <header class="header">
         <nav class="navbar">
-            <a href="#" class="logo"><i class="fas fa-truck-moving"></i>BalOnyx</a>
+            <a href="#" class="logo">BalOnyx</a>
             <ul class="nav-links">
-                <li><a href="#about"><i class="fas fa-info-circle"></i> O nás</a></li>
-                <li><a href="#stats"><i class="fas fa-chart-bar"></i> Štatistiky</a></li>
-                <li><a href="#join"><i class="fas fa-user-plus"></i> Pripoj sa</a></li>
+                <li><a href="#about">O nás</a></li>
+                <li><a href="#stats">Štatistiky</a></li>
+                <li><a href="#gallery">Galéria</a></li> <li><a href="#join">Pripoj sa</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section id="hero">
+        <section id="hero" class="hero-section">
             <div class="hero-content" data-aos="fade-up">
-                <h1><i class="fas fa-truck"></i>BalOnyx</h1>
-                <p class="slogan"><i class="fas fa-road"></i> Spoločne prejdeme každý kilometer</p>
-                <a href="#join" class="btn primary-btn"><i class="fas fa-sign-in-alt"></i> Pridaj sa</a>
+                <h1>BalOnyx</h1>
+                <p class="slogan">Truck is better than chocolate.</p>
+                <a href="#join" class="btn primary-btn">Pridaj sa</a>
             </div>
         </section>
 
-        <section id="about">
+        <section id="about" class="about-section">
             <div class="container">
-                <h2 data-aos="fade-up"><i class="fas fa-info-circle"></i> O nás</h2>
+                <h2 data-aos="fade-up">O nás</h2>
                 <div class="about-content">
                     <article class="text-content" data-aos="fade-right">
-                        <p><i class="fas fa-users"></i> Sme nadšená komunita hráčov TruckersMP, ktorá sa zameriava na realistickú a zábavnú jazdu. Našou prioritou je priateľská atmosféra, vzájomná pomoc a organizované konvoje, ktoré posúvajú zážitok z jazdy na novú úroveň.</p>
-                        <p><i class="fas fa-hands-helping"></i> Ponúkame pravidelné spoločné jazdy, podporu pri riešení technických problémov a miesto, kde nájdeš rovnako zmýšľajúcich vodičov. Či už si skúsený vlk ciest alebo nováčik, u nás si každý nájde svoje miesto.</p>
+                        <p>Sme nadšená komunita hráčov TruckersMP, ktorá sa zameriava na realistickú a zábavnú jazdu. Našou prioritou je priateľská atmosféra, vzájomná pomoc a organizované konvoje, ktoré posúvajú zážitok z jazdy na novú úroveň.</p>
+                        <p>Ponúkame pravidelné spoločné jazdy, podporu pri riešení technických problémov a miesto, kde nájdeš rovnako zmýšľajúcich vodičov. Či už si skúsený vlk ciest alebo nováčik, u nás si každý nájde svoje miesto.</p>
                     </article>
                     <div class="image-content" data-aos="fade-left">
                         <img src="img/Scania.jpg" alt="Konvoj kamiónov" class="illustration-img">
@@ -45,44 +44,72 @@
             </div>
         </section>
 
-        <section id="stats">
+        <section id="stats" class="stats-section">
             <div class="container">
-                <h2 data-aos="fade-up"><i class="fas fa-chart-line"></i> Členovia / Štatistiky</h2>
+                <h2 data-aos="fade-up">Členovia / Štatistiky</h2>
                 <div class="stats-grid">
                     <div class="stat-item" data-aos="zoom-in">
-                        <h3><i class="fas fa-users"></i> Počet členov</h3>
+                        <h3>Počet členov</h3>
                         <p class="stat-number">50+</p>
                     </div>
                     <div class="stat-item" data-aos="zoom-in" data-aos-delay="100">
-                        <h3><i class="fas fa-tachometer-alt"></i> Najazdené KM</h3>
+                        <h3>Najazdené KM</h3>
                         <p class="stat-number">1 500 000+</p>
                     </div>
                     <div class="stat-item" data-aos="zoom-in" data-aos-delay="200">
-                        <h3><i class="fas fa-route"></i> Konvoje mesačne</h3>
+                        <h3>Konvoje mesačne</h3>
                         <p class="stat-number">10+</p>
-                    </div>
-                </div>
-                <div class="member-gallery" data-aos="fade-up" data-aos-delay="300">
-                    <h3><i class="fas fa-camera"></i> Naši členovia v akcii</h3>
-                    <div class="gallery-grid">
-                        <img src="img/markus.webp" alt="Členovia VTC" class="gallery-img">
-                        <img src="img/bal.webp" alt="Členovia VTC" class="gallery-img">
-                        <img src="img/aurma.webp" alt="Členovia VTC" class="gallery-img">
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="join">
+        <section id="gallery" class="gallery-section">
             <div class="container">
-                <h2 data-aos="fade-up"><i class="fas fa-handshake"></i> Pripoj sa k nám!</h2>
-                <p class="join-description" data-aos="fade-up" data-aos-delay="100"><i class="fas fa-arrow-right"></i> Staň sa súčasťou našej rastúcej komunity a zaži TruckersMP naplno.</p>
+                <h2 data-aos="fade-up">Naša Galéria</h2>
+                <p class="gallery-description" data-aos="fade-up" data-aos-delay="100">Zachytené momenty z našich ciest a konvojov. Pridaj sa k nám a vytvor si vlastné spomienky!</p>
+                <div class="gallery-grid">
+                    <figure class="gallery-item" data-aos="fade-up" data-aos-delay="150">
+                        <img src="img/hq720.jpg" alt="Konvoj v snehu" class="gallery-img">
+                        <figcaption>Zimná jazda konvoja</figcaption>
+                    </figure>
+                    <figure class="gallery-item" data-aos="fade-up" data-aos-delay="200">
+                        <img src="img/first-time-in-all-the-years-i-played-that-i-deliver-to-a-v0-f46ustmxhzq81.webp" alt="Nočná dodávka" class="gallery-img">
+                        <figcaption>Nočná dodávka v Nemecku</figcaption>
+                    </figure>
+                    <figure class="gallery-item" data-aos="fade-up" data-aos-delay="250">
+                        <img src="img/20230823-ETS2-SCS-West-Balkans-Gas-Stations-Truck-Stops-Rest-Areas-27.jpg" alt="Oddych na pumpe" class="gallery-img">
+                        <figcaption>Oddych počas dlhej trasy</figcaption>
+                    </figure>
+                    <figure class="gallery-item" data-aos="fade-up" data-aos-delay="300">
+                        <img src="img/hq720 (1).jpg" alt="Prejazd mestom" class="gallery-img">
+                        <figcaption>Prejazd rušným mestom</figcaption>
+                    </figure>
+                    <figure class="gallery-item" data-aos="fade-up" data-aos-delay="350">
+                        <img src="img/Euro-Truck-Simulator-2-roster-expands-with-Iveco-S-Way-range-interior-1024x576.jpg" alt="Pohľad z kabíny" class="gallery-img">
+                        <figcaption>Pohľad z kabíny kamiónu</figcaption>
+                    </figure>
+                    <figure class="gallery-item" data-aos="fade-up" data-aos-delay="400">
+                        <img src="img/ets2.webp" alt="Jazda po diaľnici" class="gallery-img">
+                        <figcaption>Slnečná diaľnica</figcaption>
+                    </figure>
+                </div>
+                <div class="gallery-cta" data-aos="fade-up" data-aos-delay="500">
+                    <a href="#join" class="btn primary-btn">Pripoj sa a pridaj svoje fotky!</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="join" class="join-section">
+            <div class="container">
+                <h2 data-aos="fade-up">Pripoj sa k nám!</h2>
+                <p class="join-description" data-aos="fade-up" data-aos-delay="100">Staň sa súčasťou našej rastúcej komunity a zaži TruckersMP naplno.</p>
                 <div class="join-options" data-aos="fade-up" data-aos-delay="200">
-                    <a href="" target="_blank" class="btn secondary-btn discord-btn">
-                        <i class="fab fa-discord"></i> Pripoj sa na Discord
+                    <a href="[Odkaz na Discord]" target="_blank" class="btn secondary-btn discord-btn">
+                        <img src="https://cdn-icons-png.flaticon.com/512/5968/5968756.png" alt="Discord ikona" class="btn-icon"> Pripoj sa na Discord
                     </a>
-                    <a href="" target="_blank" class="btn secondary-btn truckersmp-btn">
-                        <i class="fas fa-truck"></i> Náš TruckersMP Profil
+                    <a href="https://truckersmp.com/vtc/55519" target="_blank" class="btn secondary-btn truckersmp-btn">
+                        <img src="https://truckersmp.com/assets/icons/favicon-32x32.png" alt="TruckersMP ikona" class="btn-icon"> Náš TruckersMP Profil
                     </a>
                 </div>
                 </div>
@@ -92,36 +119,36 @@
     <footer class="footer">
         <div class="footer-content">
             <div class="footer-section">
-                <a href="#" class="footer-logo"><i class="fas fa-truck-moving"></i> BalOnyx</a>
-                <p class="tagline"><i class="fas fa-road"></i> Spoločne na cestách.</p>
+                <a href="#" class="footer-logo"> BalOnyx</a>
+                <p class="tagline"> Truck is better than chocolate.</p>
             </div>
             <div class="footer-section">
-                <h3><i class="fas fa-link"></i> Odkazy</h3>
+                <h3> Odkazy</h3>
                 <ul>
-                    <li><a href="#about"><i class="fas fa-info-circle"></i> O nás</a></li>
-                    <li><a href="#stats"><i class="fas fa-chart-bar"></i> Štatistiky</a></li>
-                    <li><a href="#join"><i class="fas fa-user-plus"></i> Pripoj sa</a></li>
+                    <li><a href="#about"> O nás</a></li>
+                    <li><a href="#stats"> Štatistiky</a></li>
+                    <li><a href="#join"> Pripoj sa</a></li>
                 </ul>
             </div>
             <div class="footer-section">
-                <h3><i class="fas fa-envelope"></i> Kontakt</h3>
-                <p><i class="fas fa-at"></i> Email: <a href="mailto:info@vasavtc.sk">balonyx@gmail.com</a></p>
-                <p><i class="fab fa-discord"></i> Discord: [Odkaz na Discord]</p>
+                <h3> Kontakt</h3>
+                <p> Email: <a href="mailto:info@vasavtc.sk">balonyx@gmail.com</a></p>
+                <p>Discord: [Odkaz na Discord]</p>
             </div>
         </div>
 
         <div class="copyright">
-            <p><i class="far fa-copyright"></i> 2025 Martin Pavlik. Všetky práva vyhradené.</p>
-            <p><i class="fas fa-laptop-code"></i> Webdesign vytvorený pre TruckersMP komunitu.</p>
+            <p>2025 Martin Pavlik. Všetky práva vyhradené.</p>
+            <p>Webdesign vytvorený pre TruckersMP komunitu.</p>
         </div>
     </footer>
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init({
-            duration: 1000, 
-            once: true,    
-            mirror: false, 
+            duration: 1000,
+            once: true,
+            mirror: false,
         });
     </script>
 </body>
